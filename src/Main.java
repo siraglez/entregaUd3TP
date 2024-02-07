@@ -6,7 +6,7 @@ public class Main {
 
         //Ejemplo de uso
         String textoejemplo = "Menudo día de mierda. Me siento fatal";
-        String textoejemplo2 = "Qué gran día. Me siento maravilloso";
+        //String textoejemplo2 = "Qué gran día. Me siento maravilloso";
         String categoriaSentimiento = analizarSentimiento(textoejemplo);
         System.out.println("Sentimiento: " + categoriaSentimiento);
     }

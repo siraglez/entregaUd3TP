@@ -13,11 +13,11 @@ public class Main {
 
     public static String analizarSentimiento(String texto) {
         //Análisis del texto para obtener una puntuación de sentimiento
-        double puntuacionSentimiento = analizarTexto(texto);
+        int puntuacionSentimiento = analizarTexto(texto);
 
         //Definición de umbrales
-        double umbralPositivo = 0.6;
-        double umbralNegativo = 0.4;
+        int umbralPositivo = 60;
+        int umbralNegativo = 40;
 
         //Clasificar Sentimientos
         if (puntuacionSentimiento >= umbralPositivo) {
@@ -32,13 +32,15 @@ public class Main {
 
     }
 
-    private static double analizarTexto(String texto) {
+
+    //Quitar bucles y usar hash code (clave y valor)
+    private static int analizarTexto(String texto) {
         int palabrasPositivas = contarPalabrasPositivas(texto);
         int palabrasNegativas = contarPalabrasNegativas(texto);
 
         //Cálculo de Puntuación de Sentimiento
-        double totalPalabras = palabrasPositivas + palabrasNegativas;
-        return totalPalabras > 0 ? palabrasPositivas / totalPalabras : 0.5; //Valor por defecto si no existen palabras +-
+        int totalPalabras = palabrasPositivas + palabrasNegativas;
+        return totalPalabras > 0 ? palabrasPositivas / totalPalabras : 50; //Valor por defecto si no existen palabras +-
 
     }
 

@@ -43,12 +43,12 @@ public class Main {
     }
 
     private static int contarPalabrasPositivas(String texto) {
-        String[] palabrasPositivas = {"feliz", "increíble", "maravilloso", "guapo", "positivo", "genial"};
+        String[] palabrasPositivas = {"feliz", "increíble", "maravilloso", "guapo", "positivo", "genial", "happy", "great", "amazing"};
         return contarPalabrasClave(texto, palabrasPositivas);
     }
 
     private static int contarPalabrasNegativas(String texto) {
-        String[] palabrasNegativas = {"triste", "malo", "negativo", "horrible", "desastroso", "mierda", "fatal"};
+        String[] palabrasNegativas = {"triste", "malo", "negativo", "horrible", "desastroso", "mierda", "fatal", "sad", "bad"};
         return contarPalabrasClave(texto, palabrasNegativas);
     }
 

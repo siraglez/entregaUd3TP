@@ -46,10 +46,9 @@ FUNCION analizarSentimiento(texto):
     SINO
         RETORNAR "neutral"
     FIN SI
-```
-
 
 PARA CADA publicación EN red_social:
 sentimiento = analizarSentimiento(publicación.texto)
 imprimir("Publicación: ", publicación.texto, " - Sentimiento: ", sentimiento)
 FIN PARA
+```

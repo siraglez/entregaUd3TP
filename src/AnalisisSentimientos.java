@@ -85,12 +85,3 @@ public class AnalisisSentimientos {
         return contador;
     }
 }
-
-
-/*Clase valor:
-    String expresión,
-    int peso.
-Mapa <int (clave), valor (valor)>
-Métodos: compare_to(Object o) (o = valor) {
-    (this.criterio < o.criterio);
-}*/

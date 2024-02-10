@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13b625fd-4900-4e21-829e-9f8c99f2736f" name="Changes" comment="cambio de double a int">
-      <change afterPath="$PROJECT_DIR$/src/RecomendaciónLibros.java" afterDir="false" />
+    <list default="true" id="13b625fd-4900-4e21-829e-9f8c99f2736f" name="Changes" comment="código ejercicio 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalisisSentimientos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "siraglez"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;siraglez&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -41,30 +40,33 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2c391mQsNIarOvjyrlFSMZtrgi5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowPlantUML.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowPlantUML.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707329181308</updated>
-      <workItem from="1707329182323" duration="7030000" />
+      <workItem from="1707329182323" duration="11080000" />
+      <workItem from="1707591138282" duration="6269000" />
     </task>
     <task id="LOCAL-00001" summary="código ejercicio 1">
       <option name="closed" value="true" />
@@ -131,7 +134,103 @@
       <option name="project" value="LOCAL" />
       <updated>1707487676889</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="uso de hashmap en lugar de arrays para almacenamiento de palabras positivas y negativas">
+      <option name="closed" value="true" />
+      <created>1707587185756</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707587185756</updated>
+    </task>
+    <task id="LOCAL-00009" summary="readme ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1707587535389</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707587535389</updated>
+    </task>
+    <task id="LOCAL-00010" summary="pseudocódigo ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1707588126817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707588126817</updated>
+    </task>
+    <task id="LOCAL-00011" summary="pseudocódigo ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1707588352500</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707588352500</updated>
+    </task>
+    <task id="LOCAL-00012" summary="pseudocódigo ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1707588475088</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707588475088</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ultimos detalles readme ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1707588505038</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707588505038</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Comentarios código ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1707588980397</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707588980397</updated>
+    </task>
+    <task id="LOCAL-00015" summary="esqueleto ejercicio 2">
+      <option name="closed" value="true" />
+      <created>1707592541908</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707592541908</updated>
+    </task>
+    <task id="LOCAL-00016" summary="código ejercicio 2">
+      <option name="closed" value="true" />
+      <created>1707593132675</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707593132675</updated>
+    </task>
+    <task id="LOCAL-00017" summary="readme ejercicio 2">
+      <option name="closed" value="true" />
+      <created>1707593457829</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707593457829</updated>
+    </task>
+    <task id="LOCAL-00018" summary="clase ejercicio 3">
+      <option name="closed" value="true" />
+      <created>1707601070294</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707601070294</updated>
+    </task>
+    <task id="LOCAL-00019" summary="código ejercicio 3">
+      <option name="closed" value="true" />
+      <created>1707608146872</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707608146872</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +252,16 @@
     <MESSAGE value="Merge branch 'main' of https://github.com/siraglez/entregaUd3TP" />
     <MESSAGE value="más palabras para detectar sentimientos" />
     <MESSAGE value="cambio de double a int" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambio de double a int" />
+    <MESSAGE value="uso de hashmap en lugar de arrays para almacenamiento de palabras positivas y negativas" />
+    <MESSAGE value="readme ejercicio 1" />
+    <MESSAGE value="pseudocódigo ejercicio 1" />
+    <MESSAGE value="ultimos detalles readme ejercicio 1" />
+    <MESSAGE value="Comentarios código ejercicio 1" />
+    <MESSAGE value="esqueleto ejercicio 2" />
+    <MESSAGE value="código ejercicio 2" />
+    <MESSAGE value="readme ejercicio 2" />
+    <MESSAGE value="clase ejercicio 3" />
+    <MESSAGE value="código ejercicio 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="código ejercicio 3" />
   </component>
 </project>

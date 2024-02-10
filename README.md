@@ -109,3 +109,45 @@ usuario_actual = obtenerUsuarioActual()
 recomendaciones = recomendarLibros(usuario_actual)
 imprimir("Recomendaciones: ", recomendaciones)
 ```
+
+# Ejercicio 3: Simulación de Redes de Computadores
+
+Este código en Java simula el comportamiento de una red de computadoras. Aquí hay una explicación de cada parte del código:
+
+## 1. Definición de las Clases `Nodo` y `Red`:
+
+- `Nodo`: Representa un nodo en la red y tiene dos atributos: `id` para identificar el nodo y `trafico` para almacenar la cantidad de tráfico que tiene el nodo en la simulación.
+- `Red`: Representa la red en sí y contiene una lista de nodos.
+
+## 2. Función `crearRed(int numNodos)`:
+
+- Esta función crea una red con un número específico de nodos. Cada nodo tiene un identificador único y se inicializa con un valor de tráfico inicial de 0.
+
+## 3. Funciones `simularTrafico(Nodo nodo, double tasaDeTrafico)` e `imprimirNodo(Nodo nodo)`:
+
+- `simularTrafico`: Genera un valor de tráfico aleatorio para un nodo dado, multiplicando un número aleatorio entre 0 y 1 por la tasa de tráfico proporcionada.
+- `imprimirNodo`: Imprime en la consola la información del nodo, incluyendo su identificador y el tráfico generado.
+
+## 4. Función `simularRed(List<Nodo> nodos, double tasaDeTrafico)`:
+
+- Simula el tráfico en la red al llamar a `simularTrafico` para cada nodo y luego imprime la información del nodo utilizando `imprimirNodo`.
+
+## 5. Función `main`:
+
+- Solicita al usuario ingresar el número de nodos y la tasa de tráfico, luego crea una red con los nodos correspondientes y simula el tráfico.
+
+En resumen, este programa Java permite al usuario simular el tráfico en una red de computadoras al ingresar el número de nodos y la tasa de tráfico. Luego, muestra la información del tráfico generado por cada nodo en la red.
+
+# Pseudocódigo
+
+```python
+def simularRed(nodos, tasa_de_tráfico):
+    red = crearRed(nodos)
+    for nodo in red:
+        simularTrafico(nodo, tasa_de_tráfico)
+        imprimir("Nodo: ", nodo.id, " - Tráfico: ", nodo.trafico)
+
+nodos = generarNodos(10)
+tasa_de_tráfico = 0.5
+simularRed(nodos, tasa_de_tráfico)
+```

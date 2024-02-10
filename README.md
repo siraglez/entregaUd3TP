@@ -37,18 +37,15 @@ En resumen, este código proporciona una forma básica de determinar el sentimie
 ### Función `analizarSentimiento(texto)`
 
 ```plaintext
-FUNCION analizarSentimiento(texto):
+función analizarSentimiento(texto):
     sentimiento = analizarTexto(texto)
-    SI sentimiento > umbral_positivo ENTONCES
-        RETORNAR "positivo"
-    SINO SI sentimiento < umbral_negativo ENTONCES
-        RETORNAR "negativo"
-    SINO
-        RETORNAR "neutral"
-    FIN SI
+    si sentimiento > umbral_positivo 
+        return "positivo"
+    si sentimiento < umbral_negativo 
+        return "negativo"
+    return "neutral"
 
-PARA CADA publicación EN red_social:
-sentimiento = analizarSentimiento(publicación.texto)
-imprimir("Publicación: ", publicación.texto, " - Sentimiento: ", sentimiento)
-FIN PARA
+para cada publicación en red_social:
+    sentimiento = analizarSentimiento(publicación.texto)
+    imprimir("Publicación: ", publicación.texto, " - Sentimiento: ", sentimiento)
 ```

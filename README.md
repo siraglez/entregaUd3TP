@@ -34,8 +34,6 @@ En resumen, este código proporciona una forma básica de determinar el sentimie
 
 # Análisis de Sentimientos en Pseudocódigo
 
-### Función `analizarSentimiento(texto)`
-
 ```plaintext
 función analizarSentimiento(texto):
     sentimiento = analizarTexto(texto)

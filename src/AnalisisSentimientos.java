@@ -35,6 +35,7 @@ public class AnalisisSentimientos {
     }
 
 
+    //Función para analizar el texto, decidiéndo si es positivo, negativo o neutral
     private static int analizarTexto(String texto) {
         Map<String, Integer> palabrasSentimiento = inicializarPalabrasSentimiento();
 
@@ -46,6 +47,7 @@ public class AnalisisSentimientos {
         return totalPalabras > 0 ? palabrasPositivasCont * 100 / totalPalabras : 50; // Valor por defecto si no existen palabras +-
     }
 
+    //Hash map para almacenar distintas palabras positivas y negativas
     private static Map<String, Integer> inicializarPalabrasSentimiento() {
         Map<String, Integer> palabrasSentimiento = new HashMap<>();
         palabrasSentimiento.put("feliz", 1);
@@ -71,6 +73,7 @@ public class AnalisisSentimientos {
         return palabrasSentimiento;
     }
 
+    //Función para determinar la puntuación de palabras positivas y negativas del texto analizado
     private static int contarPalabrasClave(String texto, Map<String, Integer> palabrasSentimiento, boolean esPositiva) {
         int contador = 0;
         for (String palabra : palabrasSentimiento.keySet()) {

@@ -31,3 +31,25 @@ La función `main` se utiliza para realizar un ejemplo de uso. Se proporciona un
 - Utiliza expresiones regulares para encontrar coincidencias de palabras clave, y la variable `esPositiva` determina si se deben contar palabras clave positivas o negativas.
 
 En resumen, este código proporciona una forma básica de determinar el sentimiento de un texto basándose en la presencia de palabras clave positivas y negativas. La puntuación se calcula como un porcentaje de palabras positivas en relación con el total de palabras (positivas y negativas).
+
+# Análisis de Sentimientos en Pseudocódigo
+
+### Función `analizarSentimiento(texto)`
+
+```plaintext
+FUNCION analizarSentimiento(texto):
+    sentimiento = analizarTexto(texto)
+    SI sentimiento > umbral_positivo ENTONCES
+        RETORNAR "positivo"
+    SINO SI sentimiento < umbral_negativo ENTONCES
+        RETORNAR "negativo"
+    SINO
+        RETORNAR "neutral"
+    FIN SI
+```
+
+
+PARA CADA publicación EN red_social:
+sentimiento = analizarSentimiento(publicación.texto)
+imprimir("Publicación: ", publicación.texto, " - Sentimiento: ", sentimiento)
+FIN PARA

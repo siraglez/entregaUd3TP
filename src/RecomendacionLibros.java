@@ -12,6 +12,7 @@ public class RecomendacionLibros {
 
     public static void main(String[] args) {
         String usuarioActual = obtenerUsuarioActual();
+        almacenarDatos(usuarioActual);
         List<String> recomendaciones = recomendarLibros(usuarioActual);
         System.out.println("Recomendaciones: " + recomendaciones);
     }
@@ -24,6 +25,29 @@ public class RecomendacionLibros {
         String usuario = scanner.nextLine();
 
         return usuario;
+    }
+
+    //Función para almacenar libros de interés y calificaciones
+    private static void almacenarDatos(String usuario) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("¿Desea almacenar libros que le hayan gustado para poder recomendarle más libros? (si/no): ");
+        String respuesta = scanner.nextLine().toLowerCase();
+
+        while (respuesta.equals("si")) {
+            System.out.println("Ingrese el nombre del libro:");
+            String libro = scanner.nextLine();
+
+            System.out.println("Ingrese la calificación para el libro (0-10): ");
+            double calificacion = scanner.nextDouble();
+
+            //Almacenar el libro y la calificación
+            calificacionesUsuarios.computeIfAbsent(usuario, k -> new HashMap<>()).put(libro, calificacion);
+
+            System.out.println("¿Desea almacenar más libros? (si/no): ");
+            scanner.nextLine(); //Limpiar el buffer
+            respuesta = scanner.nextLine().toLowerCase();
+        }
     }
 
     //Función principal para la recomendación de libros
@@ -50,4 +74,7 @@ public class RecomendacionLibros {
     private static Map<String, Double> obtenerCalificaciones(String usuario) {
         return calificacionesUsuarios.getOrDefault(usuario, new HashMap<>());
     }
+
+    //Estas dos últimas funciones se basarían en una base de datos que almacene muchos libros, para poder comparar y escoger la mejor recomendación
+    //basándose en los gustos del usuario. Dado que no tengo una base de datos dejo el código del funcionamiento base únicamente.
 }

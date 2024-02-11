@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.management.ManagementFactory;
+import java.lang.management.OperatingSystemMXBean;
+import java.lang.management.MemoryMXBean;
+import java.lang.management.MemoryUsage;
 
 //Clase para representar el rendimiento de una aplicación
 class Rendimiento {
@@ -32,12 +36,22 @@ public class RendimientoAplicaciones {
 
     //Función para obtener el rendimiento de una aplicación
     private static Rendimiento obtenerRendimiento(Aplicacion aplicacion) {
+        OperatingSystemMXBean osBean = ManagementFactory.getOperatingSystemMXBean();
+        MemoryMXBean memoryBean = ManagementFactory.getMemoryMXBean();
 
+        //Obtener el uso de CPU con carga promedio
+        double cpu = osBean.getSystemLoadAverage();
+
+        //Obtener el uso de memoria
+        MemoryUsage heapMemoryUsage = memoryBean.getHeapMemoryUsage();
+        double memoria = ((double) heapMemoryUsage.getUsed() / heapMemoryUsage.getMax()) * 100;
+
+        return new Rendimiento(cpu, memoria);
     }
 
     //Función para obtener la lista de aplicaciones
     private static List<Aplicacion> obtenerAplicaciones() {
-
+        //TODO: Implementar la lógica para obtener la lista de aplicaciones
     }
 
     public static void main(String[] args) {

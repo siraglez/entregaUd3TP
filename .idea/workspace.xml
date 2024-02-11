@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13b625fd-4900-4e21-829e-9f8c99f2736f" name="Changes" comment="código ejercicio 4">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="13b625fd-4900-4e21-829e-9f8c99f2736f" name="Changes" comment="readme ejercicio 4">
+      <change afterPath="$PROJECT_DIR$/src/RendimientoAplicaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707329181308</updated>
       <workItem from="1707329182323" duration="11080000" />
-      <workItem from="1707591138282" duration="8638000" />
+      <workItem from="1707591138282" duration="10374000" />
     </task>
     <task id="LOCAL-00001" summary="código ejercicio 1">
       <option name="closed" value="true" />
@@ -245,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707610575256</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="readme ejercicio 4">
+      <option name="closed" value="true" />
+      <created>1707610925447</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707610925447</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +288,7 @@
     <MESSAGE value="código ejercicio 3" />
     <MESSAGE value="readme ejercicio 3" />
     <MESSAGE value="código ejercicio 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="código ejercicio 4" />
+    <MESSAGE value="readme ejercicio 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme ejercicio 4" />
   </component>
 </project>

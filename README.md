@@ -151,3 +151,45 @@ nodos = generarNodos(10)
 tasa_de_tráfico = 0.5
 simularRed(nodos, tasa_de_tráfico)
 ```
+
+# Ejercicio 4: Desarrollo de un Videojuego Educativo
+
+Este código representa un programa simple de un videojuego educativo en Java que introduce desafíos de programación, niveles de dificultad y la capacidad para que los usuarios creen sus propios desafíos.
+
+## 1. Clase `Desafio`
+
+- Representa un desafío de programación con un nombre asociado.
+- Implementa un método `resolver()` que proporciona la lógica para resolver el desafío, específicamente para los desafíos "loop" y "condicional".
+  - El desafío "loop" solicita al usuario ingresar un número y luego imprime los números del 1 al n.
+  - El desafío "condicional" solicita al usuario ingresar un número y determina si es par o impar.
+
+## 2. Clase `Nivel`
+
+- Representa un nivel de dificultad con una lista de desafíos asociados.
+
+## 3. Clase `VideojuegoEducativo`
+
+- Contiene el método `main` que inicia la ejecución del programa.
+- Crea dos desafíos predefinidos ("loop" y "condicional") y un nivel con esos desafíos.
+- Llama a la función `jugarNivel` para jugar el nivel, que a su vez utiliza el método `resolver` de la clase `Desafio` para mostrar los resultados de cada desafío.
+- Pregunta al usuario si quiere crear un desafío personalizado. Si la respuesta es afirmativa, solicita el nombre del desafío al usuario y crea un nuevo desafío personalizado.
+- Llama a la función `agregarDesafio` para agregar el desafío personalizado al nivel.
+
+En resumen, el programa simula un videojuego educativo que permite a los usuarios jugar niveles con desafíos predefinidos y crear sus propios desafíos personalizados para agregar al juego. La lógica para resolver los desafíos se encuentra en la clase `Desafio`.
+
+# Pseudocódigo
+
+```python
+class Nivel:
+    def __init__(self, dificultad, desafios):
+        self.dificultad = dificultad
+        self.desafios = desafios
+
+función jugarNivel(nivel):
+    para cada desafío en nivel.desafios:
+        resultado = resolverDesafio(desafio)
+        imprimir("Desafío: ", desafio, " - Resultado: ", resultado)
+
+nivel = Nivel(dificultad = 1, desafios = ["loop", "condicional"])
+jugarNivel(nivel)
+```

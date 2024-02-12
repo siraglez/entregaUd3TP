@@ -193,3 +193,40 @@ función jugarNivel(nivel):
 nivel = Nivel(dificultad = 1, desafios = ["loop", "condicional"])
 jugarNivel(nivel)
 ```
+
+
+# Ejercicio 5: Sistema de Monitoreo de Rendimiento de Aplicaciones
+
+Este código en Java implementa un sistema básico de monitoreo del rendimiento de aplicaciones en un servidor. Aquí está una explicación detallada de lo que hace:
+
+## 1. Clases Rendimiento y Aplicacion:
+
+### - Rendimiento:
+
+Esta clase tiene dos campos, `cpu` y `memoria`, que representan el rendimiento de una aplicación en términos de uso de CPU y memoria, respectivamente. Tiene un constructor para inicializar estos campos.
+
+### - Aplicacion:
+
+Esta clase representa una aplicación con un único campo `nombre`. También tiene un constructor para inicializar el nombre de la aplicación.
+
+## 2. Clase RendimientoAplicaciones:
+
+- `monitorearAplicacion(Aplicacion aplicacion)`: Esta función toma una instancia de la clase `Aplicacion`, obtiene su rendimiento mediante la función `obtenerRendimiento`, y luego imprime información sobre el rendimiento en la consola.
+- `obtenerRendimiento(Aplicacion aplicacion)`: Esta función utiliza las clases `OperatingSystemMXBean` y `MemoryMXBean` del paquete `java.lang.management` para obtener información sobre el rendimiento del sistema. Obtiene la carga promedio del sistema como uso de CPU y el uso de memoria en términos de porcentaje.
+- `obtenerAplicaciones()`: Esta función simula la obtención de una lista de aplicaciones en ejecución. En este caso, simplemente crea tres aplicaciones de prueba y las devuelve en una lista.
+- `main(String[] args)`: La función principal crea una lista de aplicaciones llamando a `obtenerAplicaciones()`, y luego itera sobre esta lista llamando a `monitorearAplicacion()` para cada aplicación.
+
+En resumen, el código simula un sistema de monitoreo de aplicaciones que imprime en la consola información sobre el uso de CPU y memoria de cada aplicación en una lista predefinida. Ten en cuenta que para un entorno de producción, necesitarías adaptar estas funciones para obtener información más precisa y realista sobre el rendimiento de las aplicaciones.
+
+
+# Pseudocódigo
+
+```python
+función monitorearAplicación(aplicación):
+    rendimiento = obtenerRendimiento(aplicación)
+    imprimir("Aplicación: ", aplicacion.nombre, " - CPU: ", rendimiento.cpu, " - Memoria: ", rendimiento.memoria)
+
+aplicaciones = obtenerAplicaciones()
+para cada aplicación en aplicaciones:
+    mnitorearAplicación(apliacción)
+```

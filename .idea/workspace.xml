@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13b625fd-4900-4e21-829e-9f8c99f2736f" name="Changes" comment="edit código ejercicio 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RendimientoAplicaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RendimientoAplicaciones.java" afterDir="false" />
-    </list>
+    <list default="true" id="13b625fd-4900-4e21-829e-9f8c99f2736f" name="Changes" comment="edit código ejercicio 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707329181308</updated>
       <workItem from="1707329182323" duration="11080000" />
-      <workItem from="1707591138282" duration="12031000" />
+      <workItem from="1707591138282" duration="12382000" />
     </task>
     <task id="LOCAL-00001" summary="código ejercicio 1">
       <option name="closed" value="true" />
@@ -270,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707668862568</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="edit código ejercicio 5">
+      <option name="closed" value="true" />
+      <created>1707729619250</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707729619250</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

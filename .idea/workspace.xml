@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13b625fd-4900-4e21-829e-9f8c99f2736f" name="Changes" comment="readme ejercicio 4">
-      <change afterPath="$PROJECT_DIR$/src/RendimientoAplicaciones.java" afterDir="false" />
+    <list default="true" id="13b625fd-4900-4e21-829e-9f8c99f2736f" name="Changes" comment="edit código ejercicio 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RendimientoAplicaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RendimientoAplicaciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707329181308</updated>
       <workItem from="1707329182323" duration="11080000" />
-      <workItem from="1707591138282" duration="10374000" />
+      <workItem from="1707591138282" duration="12031000" />
     </task>
     <task id="LOCAL-00001" summary="código ejercicio 1">
       <option name="closed" value="true" />
@@ -254,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707610925447</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="comienzo código ejercicio 5">
+      <option name="closed" value="true" />
+      <created>1707667848128</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1707667848128</updated>
+    </task>
+    <task id="LOCAL-00024" summary="edit código ejercicio 5">
+      <option name="closed" value="true" />
+      <created>1707668862568</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1707668862568</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +305,8 @@
     <MESSAGE value="readme ejercicio 3" />
     <MESSAGE value="código ejercicio 4" />
     <MESSAGE value="readme ejercicio 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme ejercicio 4" />
+    <MESSAGE value="comienzo código ejercicio 5" />
+    <MESSAGE value="edit código ejercicio 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit código ejercicio 5" />
   </component>
 </project>

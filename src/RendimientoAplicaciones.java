@@ -51,7 +51,13 @@ public class RendimientoAplicaciones {
 
     //Función para obtener la lista de aplicaciones
     private static List<Aplicacion> obtenerAplicaciones() {
-        //TODO: Implementar la lógica para obtener la lista de aplicaciones
+        //Aquí se podría implementar la lógica real para obtener la lista de aplicaciones
+        //Ejemplo creando algunas aplicaciones de prueba
+        List<Aplicacion> aplicaciones = new ArrayList<>();
+        aplicaciones.add(new Aplicacion("App 1"));
+        aplicaciones.add(new Aplicacion("App 2"));
+        aplicaciones.add(new Aplicacion("App 3"));
+        return aplicaciones;
     }
 
     public static void main(String[] args) {
